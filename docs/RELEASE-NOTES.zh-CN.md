@@ -23,6 +23,12 @@
 
 默认两种字重均已通过 Windows 私有 GDI/GDI+ 加载和全部 3,688 个目标汉字的覆盖检查。字体生成脚本在两次独立输出目录中产生了相同的 SHA-256。核心流程通过 57 项完整集成检查，包括逐像素保护检查、原样恢复和强制中断后的恢复；另通过 12 项快速检查。已在一台 Windows 11 电脑的实际 Steam 安装中应用并检查民族菜单、提示文字和单人对局界面。这些检查不代表所有电脑、界面或第三方字体均已验证。
 
+2026-10-30 补充实机验证：使用与公开 ZIP 内逐字节一致的最终 GUI，先恢复原版，再重新应用默认字体。恢复后 16 份 DDS 与原版哈希一致；重新应用后，字体目录 40 个文件中仅 16 份目标 DDS 改变，其他 24 个文件保持原样。重新启动游戏，检查“设置”“房间浏览器”“更改语言”“确认”和黑框提示中的“将”，并保存全屏 3840×2160 无损 PNG。上述页面未观察到缺字、方框或明显排版溢出。详细范围见[测试记录](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/TESTING.md)。
+
+![“将”字的原版与修复后对比](https://raw.githubusercontent.com/Qihang-Li/aoede-chinese-font-fix/main/docs/images/jiang-comparison.png)
+
+![菜单与设置页文字对比](https://raw.githubusercontent.com/Qihang-Li/aoede-chinese-font-fix/main/docs/images/menu-comparison.png)
+
 游戏多个语言共用字体资源，修改会影响繁体中文、日语等语言中的同码汉字。游戏更新、Steam 验证文件或其他 mod 可能覆盖修改。项目不提供反作弊、多人联机、新成就触发或未来游戏版本的兼容保证。
 
 ## 下载与恢复
