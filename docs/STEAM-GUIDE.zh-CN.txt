@@ -7,11 +7,19 @@
 
 它在你的电脑上重新绘制游戏字体资源中的整组汉字，并保留原有字距和排版信息，不需要逐字打补丁。当前版本为 [b]0.1.0 社区预览版[/b]。
 
-[b]原版民族列表[/b]（可点开大图查看）
-[previewimg=48367853;sizeFull,inline;before-civilizations.jpg][/previewimg]
+[b]“将”字的修复前后对比[/b]（可点开大图查看）
+左侧原版右上为“爫”（“采”的上半部）式结构，右侧使用默认字体后为常见简体字形的“夕”。
+[previewimg=48369920;sizeFull,inline;jiang-comparison.png][/previewimg]
 
-[b]使用默认字体后的同一列表[/b]
-[previewimg=48367854;sizeFull,inline;after-civilizations.jpg][/previewimg]
+[b]主菜单与游戏设置中的四处文字[/b]
+“设置”“房间浏览器”“更改语言”“确认”的重点字已用红圈标出。
+[previewimg=48369921;sizeFull,inline;menu-comparison.png][/previewimg]
+
+以上对比来自同一台电脑在原版与应用默认字体后截取的 3840×2160 PNG。仅做裁切、等比例放大和圈注；未用生成式修图，也未重绘截图笔画。放大采用最近邻处理以保留原始像素。
+
+Steam 单图上限为 2 MB，完整 4K 原图和标注全图保存在 GitHub：
+[url=https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/before-civilizations.png]原版民族列表（4K PNG）[/url] ｜ [url=https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/after-civilizations.png]修复后民族列表（4K PNG）[/url]
+[url=https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/before-civilizations-highlighted.png]原版标注全图[/url] ｜ [url=https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/after-civilizations-highlighted.png]修复后标注全图[/url]
 
 [h1]先确认是否适用[/h1]
 [list]
@@ -22,12 +30,12 @@
 [/list]
 
 [h1]目前测试到什么程度？[/h1]
-默认两种字重覆盖全部 3,688 个目标汉字。核心通过 57 项完整集成检查，包括应用、原样恢复、非汉字像素保护、冲突拒绝和强制中断后的恢复。另通过 12 项快速检查。
+默认两种字重覆盖全部 3,688 个目标汉字。核心在隔离测试资源上通过 57 项完整集成检查，包括应用、原样恢复、非汉字像素保护、冲突拒绝和强制中断后的恢复；另通过 12 项快速检查。
 
-已在一台 Windows 11 电脑的实际 Steam 安装中应用并检查民族列表、提示文字和单人对局菜单。尚未验证第二台电脑、全部界面、多人联机、新成就触发或未来版本。
+2026 年 10 月 30 日，使用与已发布 ZIP 内相同的最终版 GUI，在一台 Windows 11 电脑的真实 Steam 游戏目录中完成“恢复原样 → 启动原版检查 → 关闭游戏 → 应用默认字体 → 重启检查”。恢复后的 16 张字体纹理逐一与原始备份一致；重新应用约需 3 分 20 秒，仅这 16 个目标文件变化，其余字体文件保持不变。已检查主菜单、游戏设置、民族列表及提示文字，并保存 4K 前后截图。此前另检查过单人对局菜单。
+
+这些结果限于上述环境和页面；尚未验证第二台电脑、全部界面、多人联机、新成就触发或未来版本。
 [url=https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/TESTING.md]完整验证记录[/url]
-
-[previewimg=48367856;sizeFull,inline;after-game-menu.jpg][/previewimg]
 
 【章节：下载与六步使用】
 [h1]下载与源代码[/h1]
