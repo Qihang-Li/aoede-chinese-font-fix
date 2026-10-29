@@ -20,7 +20,17 @@
 
 ## 实际效果
 
-[原版民族列表](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/before-civilizations.png) · [修复后的民族列表](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/after-civilizations.png) · [工具预览界面](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/tool-preview.png) · [游戏内菜单](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/after-game-menu.png)
+以黑色提示框中的“将”字为例：左侧原版，右侧修复后。原版右上是类似“采”上半部的“爫”式结构，修复后是常见简体字形中的“夕”。红圈标出对比位置，两侧按同一倍率放大；仅裁切、放大和圈注，未重绘截图中的笔画。
+
+![“将”字原版与修复后的圈注放大对比](docs/images/jiang-comparison.png)
+
+[原版民族列表（红圈标注）](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/before-civilizations-highlighted.png) · [修复后的民族列表（红圈标注）](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/after-civilizations-highlighted.png) · [工具预览界面](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/tool-preview.png) · [游戏内菜单](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/after-game-menu.png)
+
+上述民族对比图取自游戏保存的 **3840×2160 无损 PNG**，局部采用相同倍率的像素放大；标注全图保持原始分辨率，圈注不遮挡目标字的笔画。前后分别在恢复原版、通过最终发布版 GUI 重新应用默认字体后拍摄。[未标注的原版 4K 截图](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/before-civilizations.png) · [未标注的修复后 4K 截图](https://github.com/Qihang-Li/aoede-chinese-font-fix/blob/main/docs/images/after-civilizations.png)。
+
+主菜单与设置页中的“设置”“房间浏览器”“更改语言”“确认”也可对照查看：
+
+![菜单和设置页四处文字的原版与修复后对比](docs/images/menu-comparison.png)
 
 以上均为实际截图。验证范围与尚未测试的情况见 [测试记录](docs/TESTING.md)。
 
