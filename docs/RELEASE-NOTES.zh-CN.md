@@ -29,6 +29,8 @@
 
 下载 `AoEDE-Chinese-Font-Fix-0.1.0-win-x64.zip` 并完整解压，运行 `AoEDE-Font-Fix.exe`。请保留附带的字体、许可证和说明文件，并核对发布页上的 SHA-256。
 
+国内备用下载：[百度网盘（0.1.0 成品包）](https://pan.baidu.com/s/1XwgLAi_XntuAjsHea5uo3g)，提取码：`bp6t`。下载后请核对预期 SHA-256：`5993a313a79477bece4442a91a364c9ce3639f76cb380ad86307a5c8a62166f1`。
+
 需要撤销时先关闭游戏，再使用“恢复原样”。保留游戏目录中的 `AoEDE-Chinese-Font-Fix-backup`；遇到未知文件冲突时，不要删除备份或强行覆盖。
 
 ## 许可
