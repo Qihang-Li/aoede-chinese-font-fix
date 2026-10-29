@@ -32,7 +32,7 @@
 【章节：下载与六步使用】
 [h1]下载与源代码[/h1]
 [url=https://github.com/Qihang-Li/aoede-chinese-font-fix/releases/tag/v0.1.0]下载 0.1.0 社区预览版[/url]
-[url=https://pan.baidu.com/s/1XwgLAi_XntuAjsHea5uo3g]百度网盘备用下载（0.1.0 成品包）[/url]　提取码：[b]bp6t[/b]
+百度网盘备用下载：见上方发布页的“下载与恢复”部分，提取码：[b]bp6t[/b]。Steam 会过滤网盘直链，因此在发布页提供完整地址。
 [url=https://github.com/Qihang-Li/aoede-chinese-font-fix]GitHub 源代码、更新与问题反馈[/url]
 
 普通玩家下载 [b]AoEDE-Chinese-Font-Fix-0.1.0-win-x64.zip[/b]，完整解压即可，不需要编译，不需要 Python。GitHub 的自动“Source code”压缩包用于查看和编译源码，并不是成品程序。
