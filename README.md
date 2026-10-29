@@ -1,6 +1,6 @@
 # AoEDE Chinese Font Fix · 简体中文字体修复
 
-适用于 **Age of Empires: Definitive Edition（第一代决定版，Steam App 1017900）** 的非官方字体修复与自定义工具。
+适用于 **Age of Empires: Definitive Edition（[帝国时代决定版](https://steamcommunity.com/app/1017900)）** 的非官方字体修复与自定义工具。
 
 游戏已经显示简体中文，但部分汉字的字形可能不符合你习惯的简体中文样式。本工具在本机读取游戏字体资源，统一重新绘制其中的汉字，并保留原有字距和排版信息。不是逐个寻找、修补个别字符。
 
