@@ -1,0 +1,11 @@
+/dist/
+/artifacts/
+/work/
+/bin/
+/obj/
+*.log
+*.user
+*.suo
+*.dds
+*.fnt
+AoEDE-Chinese-Font-Fix-backup/
