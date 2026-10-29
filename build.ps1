@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$OutputDirectory = (Join-Path $PSScriptRoot 'dist\AoEDE-Chinese-Font-Fix-0.1.0'),
     [switch]$SkipFontCheck
 )
