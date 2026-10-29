@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">AoE DE 简体中文字体修复：社区预览版</title>
+  <desc id="description">深海军蓝底、暖白色汉字和说明文字的非官方社区工具封面。</desc>
+  <style>
+    @font-face {
+      font-family: "Aoe CJK Sans Cover";
+      src: url("../../fonts/AoeCjkSans-Regular.ttf") format("truetype");
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: "Aoe CJK Sans Cover";
+      src: url("../../fonts/AoeCjkSans-Bold.ttf") format("truetype");
+      font-weight: 700;
+    }
+    text { font-family: "Aoe CJK Sans Cover", sans-serif; text-anchor: middle; }
+  </style>
+  <rect width="512" height="512" fill="#132B43"/>
+  <rect x="22" y="22" width="468" height="468" rx="16" fill="none" stroke="#29465F" stroke-width="1.5"/>
+  <text x="256" y="302" font-size="268" font-weight="700" fill="#F5F0E6">汉</text>
+  <rect x="208" y="353" width="96" height="3" rx="1.5" fill="#C7B38A"/>
+  <text x="256" y="398" font-size="28" font-weight="700" fill="#F5F0E6">简体中文字体修复</text>
+  <text x="256" y="435" font-size="18" font-weight="400" fill="#B9C7D1">AoE DE · 社区预览版</text>
+</svg>
