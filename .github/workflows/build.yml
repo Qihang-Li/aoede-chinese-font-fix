@@ -1,0 +1,33 @@
+name: Build Windows portable package
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'fonts/**'
+      - 'licenses/**'
+      - 'build.ps1'
+      - '.github/workflows/build.yml'
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, pinned for review
+        with:
+          persist-credentials: false
+      - name: Compile and package
+        shell: powershell
+        run: .\build.ps1 -OutputDirectory "$env:RUNNER_TEMP\AoEDE-Chinese-Font-Fix-0.1.0"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4, pinned for review
+        with:
+          name: AoEDE-Chinese-Font-Fix-0.1.0
+          path: ${{ runner.temp }}/AoEDE-Chinese-Font-Fix-0.1.0
+          if-no-files-found: error
+          retention-days: 30
