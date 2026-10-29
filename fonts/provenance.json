@@ -1,0 +1,33 @@
+{
+  "upstream": "Adobe Source Han Sans CN variable TrueType 2.005",
+  "source_commit": "a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2",
+  "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/Variable/TTF/Subset/SourceHanSansCN-VF.ttf",
+  "source_sha256": "25a01e41b5cc99893eb35a6cd2cc7611841dc19eb03cbaf7f0c1de8210f2ba0b",
+  "license_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/LICENSE.txt",
+  "license_sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+  "license": "SIL Open Font License 1.1",
+  "reserved_upstream_font_name": "Source",
+  "derivative_family": "Aoe CJK Sans",
+  "fonttools_version": "4.60.1",
+  "transform": "Instantiate weight 400/700; rename family/style IDs; normalize regular/bold style flags; preserve upstream timestamp. No outlines redrawn.",
+  "files": [
+    {
+      "file": "AoeCjkSans-Regular.ttf",
+      "sha256": "3450bb9cc6110d8310dd657626d36e13d9329a25bb27e1c02eb7cc966c63d382",
+      "bytes": 10603172,
+      "family": "Aoe CJK Sans",
+      "style": "Regular",
+      "weight": 400,
+      "unicode_cmap_count": 30926
+    },
+    {
+      "file": "AoeCjkSans-Bold.ttf",
+      "sha256": "64ab8464f07a8a332e2e3ca47d257dfbaded252255c182addd63ab4936192b51",
+      "bytes": 10595396,
+      "family": "Aoe CJK Sans",
+      "style": "Bold",
+      "weight": 700,
+      "unicode_cmap_count": 30926
+    }
+  ]
+}
